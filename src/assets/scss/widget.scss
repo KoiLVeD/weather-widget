@@ -1,0 +1,22 @@
+.weather {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+}
+
+@import "weather-header";
+@import "weather-list";
+@import "weather-item";
+@import "weather-settings-from";
+@import "weather-locations-item";
+@import "weather-access";
+
+@import "the-button";
+@import "the-spinner";

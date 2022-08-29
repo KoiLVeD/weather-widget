@@ -1,0 +1,32 @@
+.weather-settings-from {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.weather-settings-from__field {
+  position: relative;
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-settings-from__label {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.weather-settings-from__input {
+  font-size: 16px;
+  line-height: 26px;
+  box-sizing: border-box;
+}
+
+.weather-settings-from__error {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  color: #9d0000;
+  font-size: 12px;
+}
